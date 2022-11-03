@@ -14,4 +14,7 @@ git submodule update --init
 
 # To update, fetch and init all submodules when project already exists
 git submodule update --init --recursive
+
+# To update submodules from remote when project already exists
+git submodule update --remote
 ```
